@@ -196,25 +196,6 @@ These recovery points can be used to restore the resources in case of failure or
 
 ## Issues Faced and Resolution :
 
-### Issue 1: MySQL Client Not Installed
-
-While connecting to the RDS database, the MySQL command was not available.
-
-Error:
-
-```
-mysql: command not found
-```
-
-Solution:
-
-Installed MySQL client using:
-
-```bash
-sudo yum install mysql -y
-```
-
----
 
 ### Issue 2: Resources Not Visible in Protected Resources
 
