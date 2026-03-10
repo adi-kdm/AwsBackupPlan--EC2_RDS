@@ -141,6 +141,8 @@ AWSBackupDefaultServiceRole
 
 This role allows AWS Backup to perform backup operations on the selected resources.
 
+![](/img/Assign_Resources.png)
+
 ---
 
 ## Validation :
@@ -197,7 +199,7 @@ These recovery points can be used to restore the resources in case of failure or
 ## Issues Faced and Resolution :
 
 
-### Issue 2: Resources Not Visible in Protected Resources
+### Issue 1: Resources Not Visible in Protected Resources
 
 Initially, EC2 and RDS were not visible under **Protected Resources**.
 
